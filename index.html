@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box{
+            float: left;
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px lightgrey;
+            width: 400px;
+        }
+        .boxwin{
+            display: none;
+            float: right;
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px lightgrey;
+            width: 400px;
+        }
+        .boxlost{
+            float: left;
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px lightgrey;
+            width: 400px;
+        }
+        li {
+            text-align: center;
+            list-style: none;
+        }
+        span{
+            font-weight: bolder;
+        }
+    
+    </style>
+    <div class="box">
+    <ul>
+        <li>The Psychic Game</li>
+        <li>Guess what letter I'm thinking of <span id="actual" >0</span></li>
+        <li>Wins: <span id="win">0</span></li>
+        <li>Losses: <span id="loss">0</span></li>
+        <li>Guesses Left: <span id="left">0</span></li>
+        <li>Guessed Letters so far: <span id="current" >0</span></li>
+    </ul>
+</div>
+<div class="boxwin" id="win">
+    <h1>You Win!!!!!!</h1>
+</div>
+
+    <script>
+    
+   
+    
+    </script>
+
+<script src="./assets/javascript/game.js"></script>
+</body>
+</html>
